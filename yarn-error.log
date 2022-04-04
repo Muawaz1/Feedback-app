@@ -1,0 +1,36 @@
+Arguments: 
+  /home/muawaz/.nvm/versions/node/v16.13.1/bin/node /usr/share/yarn/bin/yarn.js add jauery@3.4.1 bootstrap@3.4.1
+
+PATH: 
+  /home/muawaz/.nvm/versions/node/v16.13.1/bin:/home/muawaz/.rvm/gems/ruby-3.0.2/bin:/home/muawaz/.rvm/gems/ruby-3.0.2@global/bin:/home/muawaz/.rvm/rubies/ruby-3.0.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/muawaz/.rvm/bin:/home/muawaz/.rvm/bin:/home/muawaz/.rvm/bin:/home/muawaz/.rvm/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.13.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jauery: Not found
+      at Request.params.callback [as _callback] (/usr/share/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
